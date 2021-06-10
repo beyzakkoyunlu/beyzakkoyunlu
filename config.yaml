@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 baseurl: "https://beyzakkoyunlu.netlify.app/"
 languageCode: en-us
-title: A generic grad student website
-=======
-baseurl: /
-languageCode: en-us
-title: A Hugo website
->>>>>>> ef42c4bc0c611bb9f30b110ac089e8c56264b46b
+title: A generic PhD student website
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
@@ -23,15 +17,9 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-<<<<<<< HEAD
       url: https://github.com/beyzakkoyunlu
     - name: Twitter
       url: https://twitter.com/beyzakkoyunlu
-=======
-      url: https://github.com/rstudio/blogdown
-    - name: Twitter
-      url: https://twitter.com/rstudio
->>>>>>> ef42c4bc0c611bb9f30b110ac089e8c56264b46b
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
