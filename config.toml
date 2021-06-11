@@ -1,20 +1,20 @@
-baseURL = "http://example.org/"
+baseURL = "https://beyzakkoyunlu.netlify.app/"
 languageCode = "en-us"
 theme = "sada"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-    name = "example.org"
-    title = "Sada Theme"
-    author = "Darshan Baral"
-    description = "Simple portfolio theme"
-    copyright = "Custom copyright message"
+    name = "beyzakkoyunlu.netlify.app"
+    title = "A generic PhD student website"
+    author = "Beyza Akkoyunlu"
+    description = "Personal portfolio"
+#    copyright = "Custom copyright message"
     theme = "light" # `dark` or `light`
     useResources = false
 
     # Profile section
     [params.profile]
-        name = "Sada Theme"
+        name = "Beyza Akkoyunlu"
         photo = "images/profile.jpg"
 
     # Section for links to social websites
@@ -22,115 +22,93 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Links"
 
         [[params.social.list]]
-        icon = "fab fa-linkedin-in"
-        url = "#"
-        title = "LinkedIn"
+        icon = "fab fa-twitter"
+        url = "https://twitter.com/beyzakkoyunlu"
+        title = "Twitter"
 
         [[params.social.list]]
         icon = "fab fa-github"
-        url = "#"
+        url = "https://github.com/beyzakkoyunlu"
         title = "GitHub"
-		
-		[[params.social.list]]
-        icon = "ai ai-google-scholar"
-        url = "#"
-        title = "Google Scholar"
-		
-		[[params.social.list]]
-        icon = "ai ai-researchgate"
-        url = "#"
-        title = "ResearchGate"		
 
     # Education section
     [params.education]
         title = "Education"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
-        thesis_title = "Title of the dissertation"
-        thesis_link = "#"
+        degree = "PhD"
+        college = "University of Göttingen"
+        dates = "2021 - Current"
 
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
+        degree = "Master of Science, Neuroscience"
+        college = "Bilkent University"
+        dates = "2017 - 2020"
 
-    # Languages section
-    [params.language]
-        title = "Languages"
 
-        [[params.language.list]]
-        language = "English"
-        level = "Fluent"
-				
-        [[params.language.list]]
-        language = "Bird"
-        level = "Basic"
-
-    # Interests section
-    [params.hobbies]
-        title = "Hobbies"
-
-        [[params.hobbies.list]]
-        interest = "Travelling"
-		
-		[[params.hobbies.list]]
-        interest = "Music"
-
-        [[params.hobbies.list]]
-        interest = "Flying"
-
-        [[params.hobbies.list]]
-        interest = "Baking"
+#    # Interests section
+#    [params.hobbies]
+#        title = "Hobbies"
+#
+#        [[params.hobbies.list]]
+#        interest = "Travelling"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "I am a PhD student from Göttingen. I study visual perceptual learning with fMRI. My main focus is adult neural plasticity, advanced fmri techniques, psychophysics and low-level visio. Hoping to fill the pages of this website with some tutorials on fmri analysis, writing grants as a grad student and sci-comm (mostly in Turkish)."
 
     # Experiences section
-    [params.experiences]
-        title = "Experiences"
+#    [params.experiences]
+#        title = "Experiences"
+#
+#        [[params.jobs.list]]
+#        position = "Job Number 1"
+#        dates = "2018 - *Present*"
+#		link = "#"
+#        company = "Company name 1"
+#
+#        [[params.jobs.list]]
+#        position = "Job Number 2"
+#        dates = "2016 - 2018"
+#		link = "#"
+#        company = "Company name 2"
+#        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#
+#    # Projects section
+#    [params.projects]
+#        title = "Projects"
+#
+#        [[params.projects.list]]
+#        title = "Awesome Project 1"
+#        url = "#"
+#        description = "Description of the *awesome* project 1"
+#		
+#		[[params.projects.list]]
+#        title = "Awesome Project 2"
+#        url = "#"
+#        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#
+#    # Skills section
+#    [params.skills]
+#        title = "Skills"
+#
+#        [[params.skills.list]]
+#        skill = "Skill 1, Skill 2"
+#        skillrating = 95 # out of 100
+#                
+#        [[params.skills.list]]
+#        skill = "Skill 3"
+#        skillrating = 90
+#		
+#        [[params.skills.list]]
+#        skill = "Skill 4"
+#        skillrating = 80
 
-        [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
-		link = "#"
-        company = "Company name 1"
+#[markup]
+#  [markup.goldmark]
+#    [markup.goldmark.renderer]
+#      unsafe = true
 
-        [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
-		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
-    # Projects section
-    [params.projects]
-        title = "Projects"
-
-        [[params.projects.list]]
-        title = "Awesome Project 1"
-        url = "#"
-        description = "Description of the *awesome* project 1"
-		
-		[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
-    # Skills section
-    [params.skills]
-        title = "Skills"
-
-        [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
-                
-        [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
-		
-        [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
