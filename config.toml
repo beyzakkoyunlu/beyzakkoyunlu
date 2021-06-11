@@ -7,7 +7,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     name = "beyzakkoyunlu.netlify.app"
     title = "A generic PhD student website"
     author = "Beyza Akkoyunlu"
-    description = "Personal portfolio"
+#    description = "Personal portfolio"
 #    copyright = "Custom copyright message"
     theme = "light" # `dark` or `light`
     useResources = false
@@ -78,9 +78,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 #        title = "Projects"
 #
 #        [[params.projects.list]]
-#        title = "Awesome Project 1"
+#        title = "Attention and generalization of visual perceptual learning"
 #        url = "#"
-#        description = "Description of the *awesome* project 1"
+#        description = "I am working on "
 #		
 #		[[params.projects.list]]
 #        title = "Awesome Project 2"

@@ -1,0 +1,4 @@
+[submodule "sada"]
+	path = themes/sada
+	url = https://github.com/darshanbaral/sada.git
+
