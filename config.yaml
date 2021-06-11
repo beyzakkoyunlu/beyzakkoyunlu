@@ -1,7 +1,7 @@
 baseurl: "https://beyzakkoyunlu.netlify.app/"
 languageCode: en-us
 title: A generic PhD student website
-theme: hugo-lithium
+theme: sada
 googleAnalytics: ''
 disqusShortname: ''
 ignoreFiles:
