@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Profile section
     [params.profile]
         name = "Beyza Akkoyunlu"
-        photo = "images/profile.jpg"
+        photo = "images/potrait.jpeg"
 
     # Section for links to social websites
     [params.social]
